@@ -4,8 +4,6 @@
   "description": "Week 9 Homework - Updated Profile Page",
   "main": "server/server.js",
   "scripts": {
-    "compile": "babel frontend/src --out-dir public/js",
-    "watch": "babel frontend/src --out-dir public/js --watch --verbose",
     "start": "nodemon -e js,graphql,env -w server -w .env  -w . server/server.js"
   },
   "dependencies": {
@@ -27,7 +25,7 @@
     "morgan": "^1.10.0",
     "nodemon": "^2.0.7",
     "path": "^0.12.7",
-    "serve-favicon": "^2.5.0",
+    "serve-favicon": "^2.5.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.14.5",

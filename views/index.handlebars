@@ -1,14 +1,126 @@
-    <div class="container m-5 p-5">
-        <div class="row">
-            <div class="col-12">
-                {{#if user}}
-                    <p>You are currently logged in</p>
-                    <a href="/logout">Logout</a>
-                {{else}}
-                    <a href="/login">Login</a>
-                    <br/>
-                    <a href="/register">Register</a>
-                {{/if}}
+<div class="container-fluid">
+    <div class="row pt-2 pb-4">
+        <div id="aboutme" class="col-sm-12 col-md-3 border-dark border-right">
+            <h1 class="text-dark text-left">About Me</h1>
+        </div>
+        <div class="col-sm-12 col-md-9">
+            <div class="card">
+                <div class="card-body bg-light text-dark">
+                    I am a highly motivated person, with a broad range of technical capabilities and strong learning
+                    capabilities, and a drive to rise to and above challenges. I am capable of working under pressure
+                    and producing results of a high quality. I am capable of acting individually, within a team,
+                    providing training and/or mentoring to team members as the situation demands.<br><br>
+                    I am in the process of writing a full featured Patient Management System with MERN underpinnings to
+                    modernise the current state of such software.
+                </div>
             </div>
         </div>
     </div>
+    <div class="row pb-4">
+        <div id="work" class="col-sm-12 col-md-3 border-dark border-right">
+            <h1 class="text-dark text-left">Work</h1>
+        </div>
+        <div class="col-sm-12 col-md-9">
+            <div class="container-fluid">
+                <div class="row pb-sm-0 pb-md-2">
+                    <div class="col-12 pb-sm-2">
+                       <div class="card">
+                           <img class="card-img" src="/img/patient-management-system.jpg" alt="Patient Management System"/>
+                           <div class="card-img-overlay text-white d-flex flex-column justify-content-center">
+                               <h4 class="card-title">Patient Management System</h4>
+                               <h6 class="card-subtitle mb-2">Full Stack MERN</h6>
+                               <p class="card-text text-warning">Work in progress <i class="fas fa-exclamation-triangle"></i></p>
+                           </div>
+                       </div>
+                    </div>
+                </div>
+                <div class="row pb-sm-0 pb-md-2">
+                    <div class="col-sm-12 col-md-6 pb-sm-2">
+                        <div class="card">
+                            <img class="card-img" src="/img/chopnchange.jpg" alt="Chop 'n' Change"/>
+                            <div class="card-img-overlay text-white d-flex flex-column justify-content-center">
+                                <a class="text-decoration-none" href="https://group3-recipe-search.herokuapp.com/">
+                                    <h4 class="card-title text-warning">Chop 'n' Change</h4>
+                                    <h6 class="card-subtitle mb-2">Full Stack MERN</h6>
+                                </a>
+                                <p class="card-text text-light">What's in your kitchen today?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 pb-sm-2">
+                        <div class="card">
+                            <a href=""><img class="card-img" src="/img/weather.jpg" alt="Weather Tracker"/></a>
+                            <div class="card-img-overlay text-white d-flex flex-column justify-content-center">
+
+                                <a class="text-decoration-none" href="https://week-06-homework.herokuapp.com/">
+                                    <h4 class="card-title text-info">Weather Tracker</h4>
+                                    <h6 class="card-subtitle mb-2">Bulma CSS, Express, React, Node.js</h6>
+                                </a>
+                                <p class="card-text text-light">What's the weather going to be like?</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row pb-sm-0 pb-md-2">
+                    <div class="col-sm-12 col-md-6 pb-sm-2">
+                        <div class="card">
+                            <img class="card-img" src="/img/dayplanner.jpg" alt="Day Planner"/>
+                            <div class="card-img-overlay text-white d-flex flex-column justify-content-center">
+                                <a class="text-decoration-none" href="https://week-05-homework.herokuapp.com/">
+                                    <h4 class="card-title text-dark">Plan your day</h4>
+                                    <h6 class="card-subtitle mb-2">Full Stack MERN with GraphQL</h6>
+                                </a>
+                                <p class="card-text text-black-50">What can I get done today?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 pb-sm-2">
+                        <div class="card">
+                            <img class="card-img" src="/img/javascriptquiz.jpg" alt="Javascript Quiz"/>
+                            <div class="card-img-overlay text-white d-flex flex-column justify-content-center">
+                                <a class="text-decoration-none" href="https://week-04-homework.herokuapp.com/">
+                                    <h4 class="card-title text-white">Javascript Quiz</h4>
+                                    <h6 class="card-subtitle mb-2">Bootstrap 4, React</h6>
+                                </a>
+                                <p class="card-text text-dark">How well do I know my Javascript?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row pb-4">
+        <div id="contactme" class="col-sm-12 col-md-3 border-dark border-right">
+            <h1 class="text-dark text-left">Contact Me</h1>
+        </div>
+        <div class="col-sm-12 col-md-9">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-12 col-md-8">
+                                <span class="align-middle">
+                                 <a class="text-muted text-center"
+                                    href="mailto:dr.jim.sharples.clinic@gmail.com"><smalL>dr.jim.sharples.clinic@gmail.com</smalL></a>
+                                </span>
+                    </div>
+                    <div class="col-sm-12 col-md-2">
+                                <span class="align-middle">
+                                    <a class="text-right text-blue" target="_blank"
+                                       href="https://twitter.com/borncynical"><i class="fab fa-twitter-square"></i></a>
+                                </span>
+                    </div>
+                    <div class="col-sm-12 col-md-2">
+                                <span class="align-middle">
+                                    <a class="text-right text-blue" target="_blank"
+                                       href="https://www.linkedin.com/in/dr-jim-sharples/"><i
+                                            class="fab fa-linkedin"></i></a>
+                                </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
