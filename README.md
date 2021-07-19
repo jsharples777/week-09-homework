@@ -1,6 +1,6 @@
 # Updated Profile
 
-I want to provide an ![updated profile](https://week-09-homework.herokuapp.com/) with links to my best work and my contact details for interested parties.
+I want to provide an [updated profile](https://week-09-homework.herokuapp.com/) with links to my best work and my contact details for interested parties.
 
 ## Technologies
 ```
