@@ -1,8 +1,8 @@
 {
-  "name": "template-feo-react-babel",
+  "name": "updated-profile",
   "version": "1.0.0",
-  "description": "Template for front-end with React and Babel compiler",
-  "main": "index.js",
+  "description": "Week 9 Homework - Updated Profile Page",
+  "main": "server/server.js",
   "scripts": {
     "compile": "babel frontend/src --out-dir public/js",
     "watch": "babel frontend/src --out-dir public/js --watch --verbose",
@@ -24,20 +24,10 @@
     "jquery": "^3.6.0",
     "jquery-ui": "^1.12.1",
     "mocha": "^9.0.2",
-    "mongodb": "^4.0.0",
-    "mongoose": "^5.13.2",
     "morgan": "^1.10.0",
     "nodemon": "^2.0.7",
-    "passport": "^0.4.1",
-    "passport-local": "^1.0.0",
-    "passport-local-mongoose": "^6.1.0",
     "path": "^0.12.7",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "request": "^2.88.2",
     "serve-favicon": "^2.5.0",
-    "should": "^13.2.3",
-    "socket.io": "^4.1.3"
   },
   "devDependencies": {
     "@babel/cli": "^7.14.5",
@@ -48,16 +38,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jsharples777/template-feo-react-babel.git"
+    "url": "git+https://github.com/jsharples777/week-09-homework.git"
   },
   "keywords": [
-    "React",
-    "Babel"
+    "Boostrap",
+    "Express",
+    "Handlebars"
   ],
   "author": "Jim Sharples",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jsharples777/template-feo-react-babel/issues"
+    "url": "https://github.com/jsharples777/week-09-homework.git/issues"
   },
-  "homepage": "https://github.com/jsharples777/template-feo-react-babel#readme"
+  "homepage": "https://github.com/jsharples777/week-09-homework.git#readme"
 }
