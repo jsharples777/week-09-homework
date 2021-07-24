@@ -1,0 +1,38 @@
+.truncate {
+    width: 500px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+@media (max-width: 768px) {
+    .truncate {
+        width: 400px;
+    }
+}
+
+
+@media (max-width: 640px) {
+    .truncate {
+        width: 350px;
+    }
+}
+
+@media (max-width: 540px) {
+    .truncate {
+        width: 230px;
+    }
+}
+
+@media (max-width: 411px) {
+    .truncate {
+        width: 150px;
+    }
+}
+
+@media (max-width: 375px) {
+    .truncate {
+        width: 100px;
+    }
+}
